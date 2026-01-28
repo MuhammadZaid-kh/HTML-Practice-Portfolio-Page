@@ -40,7 +40,7 @@ I created this project to:
 ---
 
 ## 🔗 Live Demo (GitHub Pages)
-MuhammadZaid-kh/
+MuhammadZaid-kh/HTML-Practice-Portfolio-Page
 ---
 
 ## 👤 About Me
