@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Zaid - HTML Practice Project</title>
+    <link rel="icon" href="icon.png">
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+nav a {
+    margin: 0 6px;
+    padding: 6px 10px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+nav {
+    text-align: center;
+    margin: 15px 0;
+}
+
+img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+}
+
+section {
+    margin-top: 25px;
+}
+
+h2, h4 {
+    text-align: center;
+}
+
+p {
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+ul, ol {
+    width: 100%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background: #f2f2f2;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Muhammad Zaid<br>HTML Practice Project</h1>
+    <hr>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#web">Web Skills</a>
+    <a href="#plan">Time Table</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <img loading="lazy" src="photo.jpg" alt="Image of Muhammad Zaid">
+    <hr>
+    <p>My name is <mark><strong>Muhammad Zaid</strong></mark>. I am learning HTML to become a professional web developer. HTML is the foundation of every website, and I am practicing it daily to improve my skills.</p>
+</section>
+
+<section id="web">
+    <h4>My Web Skills</h4>
+    <hr>
+    <ul>
+        <li>HTML Basics</li>
+        <li>Text Formatting</li>
+        <li>Lists & Tables</li>
+    </ul>
+</section>
+
+<section>
+    <h4>My Learning Steps</h4>
+    <hr>
+    <ol>
+        <li>Learn HTML</li>
+        <li>Practice Daily</li>
+        <li>Build Projects</li>
+        <li>Upload on GitHub</li>
+    </ol>
+</section>
+
+<section>
+    <h4>HTML Concepts</h4>
+    <hr>
+    <ul>
+        <li><strong>HTML:</strong> HyperText Markup Language</li>
+        <li><strong>Tag:</strong> An element used to create HTML content</li>
+        <li><strong>Table:</strong> Used to display data in rows and columns</li>
+    </ul>
+</section>
+
+<section id="plan">
+    <h4>My Weekly Study Plan</h4>
+    <hr>
+
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>Topic</th>
+            <th>Practice Time</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>HTML Basics</td>
+            <td>1 Hour</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Text Formatting</td>
+            <td>1 Hour</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Lists</td>
+            <td>1 Hour</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>Tables</td>
+            <td>1 Hour</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>Practice Projects</td>
+            <td>2 Hours</td>
+        </tr>
+    </table>
+</section>
+
+<section id="contact">
+    <h4>Contact</h4>
+    <hr>
+    <address>
+        Email: webdev.muhammadzaid@gmail.com<br>
+        GitHub: muhammadzaid-kh<br>
+        Facebook: id=100073474484626
+    </address>
+</section>
+
+<footer>
+    <p>Created on: 25 January 2026</p>
+    <p>&copy; 2026 Muhammad Zaid. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
